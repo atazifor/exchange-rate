@@ -1,0 +1,3 @@
+exchange:
+  api:
+    environment: PROD ENVIRONMENT

@@ -1,0 +1,8 @@
+spring:
+  application.name: exchangerates
+  profiles.active: dev
+
+exchange:
+  api:
+    base-url: https://v6.exchangerate-api.com/v6
+    key: ${EXCHANGE_API_KEY}
