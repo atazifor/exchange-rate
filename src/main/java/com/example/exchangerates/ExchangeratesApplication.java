@@ -15,9 +15,4 @@ public class ExchangeratesApplication {
         SpringApplication.run(ExchangeratesApplication.class, args);
     }
 
-    @Bean
-    public RestTemplate restTemplate() {
-        return new RestTemplate();
-    }
-
 }
